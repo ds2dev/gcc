@@ -769,6 +769,10 @@ case $basic_machine in
 		basic_machine=m68k-isi
 		os=-sysv
 		;;
+	ds2)
+		basic_machine=mipsisa32el-unknown
+		os=-elf
+		;;
 	m68knommu)
 		basic_machine=m68k-unknown
 		os=-linux
